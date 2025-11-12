@@ -1,8 +1,12 @@
 # django-blog-app
 
 source venv/bin/activate
+cd my_site/
+pip install django
 
-#create a project
+#create project
 django-admin startproject my_site
-#start a project
+#create app
 python3 manage.py startapp blog
+#start dev server
+python3 manage.py runserver
