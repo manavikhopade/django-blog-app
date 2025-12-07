@@ -11,4 +11,5 @@ python3 manage.py startapp blog
 ## start dev server
 python3 manage.py runserver
 
-### Without __init__.py, Python won’t treat the directory as a package.
+
+Without __init__.py, Python won’t treat the directory as a package.
